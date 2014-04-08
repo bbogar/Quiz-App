@@ -7,16 +7,19 @@ html {
 
 body {
 	 font-size: 62.5%;  /* 1em = 10px */
-	 background-color: rgba(0,0,0,.3);
+	 /*background-color: rgba(0,0,0,.3);*/
+	background: url("../images/workshop.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	     -o-background-size: cover;
+	background-size: cover;
 }
 
 .container {
 	height: 100%;
 	width: 100%;
-	background-image: url("../images/workshop.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
 	/*border: 1px solid red;*/
 }
 
@@ -62,8 +65,8 @@ span {
 *****************************/
 
 .questionContainer {
-	margin: 0 auto;
 	width: 50%;
+	margin: 0 auto;
 	/*border: 2px solid black;*/
 	text-align: center;
 	font-family:  Helvetica, sans-serif;
@@ -71,6 +74,9 @@ span {
 	font-weight: 900;
 }
 
+.answerContainer {
+	display: none;
+}
 .headshot img {
 	margin: 6.367583212735166% 1.447178002894356%;  /* 44px/691px  10px/691px */
 	width: 40%;
